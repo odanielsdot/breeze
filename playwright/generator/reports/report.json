@@ -1,0 +1,2368 @@
+{
+  "config": {
+    "configFile": "/__w/breeze/breeze/playwright/generator/tests/playwright.config.ts",
+    "rootDir": "/__w/breeze/breeze/playwright/generator/tests/tests",
+    "forbidOnly": true,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "ci": {
+        "commitHref": "https://github.com/odanielsdot/breeze/commit/47cc1813a59b4e3aac8e5886bcc80a118c0a4056",
+        "commitHash": "47cc1813a59b4e3aac8e5886bcc80a118c0a4056",
+        "buildHref": "https://github.com/odanielsdot/breeze/actions/runs/30754768081"
+      },
+      "gitCommit": {
+        "shortHash": "47cc181",
+        "hash": "47cc1813a59b4e3aac8e5886bcc80a118c0a4056",
+        "subject": "chore(playwright): setup automation for crawler and test generator",
+        "body": "chore(playwright): setup automation for crawler and test generator\n",
+        "author": {
+          "name": "odanielsdot",
+          "email": "odanielsdot@users.noreply.git.local",
+          "time": 1785685055000
+        },
+        "committer": {
+          "name": "odanielsdot",
+          "email": "odanielsdot@users.noreply.git.local",
+          "time": 1785685055000
+        },
+        "branch": "github2"
+      },
+      "actualWorkers": 2
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/__w/breeze/breeze/playwright/generator/tests/test-results",
+        "repeatEach": 1,
+        "retries": 1,
+        "metadata": {
+          "ci": {
+            "commitHref": "https://github.com/odanielsdot/breeze/commit/47cc1813a59b4e3aac8e5886bcc80a118c0a4056",
+            "commitHash": "47cc1813a59b4e3aac8e5886bcc80a118c0a4056",
+            "buildHref": "https://github.com/odanielsdot/breeze/actions/runs/30754768081"
+          },
+          "gitCommit": {
+            "shortHash": "47cc181",
+            "hash": "47cc1813a59b4e3aac8e5886bcc80a118c0a4056",
+            "subject": "chore(playwright): setup automation for crawler and test generator",
+            "body": "chore(playwright): setup automation for crawler and test generator\n",
+            "author": {
+              "name": "odanielsdot",
+              "email": "odanielsdot@users.noreply.git.local",
+              "time": 1785685055000
+            },
+            "committer": {
+              "name": "odanielsdot",
+              "email": "odanielsdot@users.noreply.git.local",
+              "time": 1785685055000
+            },
+            "branch": "github2"
+          },
+          "actualWorkers": 2
+        },
+        "id": "setup",
+        "name": "setup",
+        "testDir": "/__w/breeze/breeze/playwright/generator/tests/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "/auth.setup.ts/"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/__w/breeze/breeze/playwright/generator/tests/test-results",
+        "repeatEach": 1,
+        "retries": 1,
+        "metadata": {
+          "ci": {
+            "commitHref": "https://github.com/odanielsdot/breeze/commit/47cc1813a59b4e3aac8e5886bcc80a118c0a4056",
+            "commitHash": "47cc1813a59b4e3aac8e5886bcc80a118c0a4056",
+            "buildHref": "https://github.com/odanielsdot/breeze/actions/runs/30754768081"
+          },
+          "gitCommit": {
+            "shortHash": "47cc181",
+            "hash": "47cc1813a59b4e3aac8e5886bcc80a118c0a4056",
+            "subject": "chore(playwright): setup automation for crawler and test generator",
+            "body": "chore(playwright): setup automation for crawler and test generator\n",
+            "author": {
+              "name": "odanielsdot",
+              "email": "odanielsdot@users.noreply.git.local",
+              "time": 1785685055000
+            },
+            "committer": {
+              "name": "odanielsdot",
+              "email": "odanielsdot@users.noreply.git.local",
+              "time": 1785685055000
+            },
+            "branch": "github2"
+          },
+          "actualWorkers": 2
+        },
+        "id": "auth",
+        "name": "auth",
+        "testDir": "/__w/breeze/breeze/playwright/generator/tests/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "/auth.spec.ts/"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/__w/breeze/breeze/playwright/generator/tests/test-results",
+        "repeatEach": 1,
+        "retries": 1,
+        "metadata": {
+          "ci": {
+            "commitHref": "https://github.com/odanielsdot/breeze/commit/47cc1813a59b4e3aac8e5886bcc80a118c0a4056",
+            "commitHash": "47cc1813a59b4e3aac8e5886bcc80a118c0a4056",
+            "buildHref": "https://github.com/odanielsdot/breeze/actions/runs/30754768081"
+          },
+          "gitCommit": {
+            "shortHash": "47cc181",
+            "hash": "47cc1813a59b4e3aac8e5886bcc80a118c0a4056",
+            "subject": "chore(playwright): setup automation for crawler and test generator",
+            "body": "chore(playwright): setup automation for crawler and test generator\n",
+            "author": {
+              "name": "odanielsdot",
+              "email": "odanielsdot@users.noreply.git.local",
+              "time": 1785685055000
+            },
+            "committer": {
+              "name": "odanielsdot",
+              "email": "odanielsdot@users.noreply.git.local",
+              "time": 1785685055000
+            },
+            "branch": "github2"
+          },
+          "actualWorkers": 2
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "/__w/breeze/breeze/playwright/generator/tests/tests",
+        "testIgnore": [
+          "/auth.setup.ts/",
+          "/auth.spec.ts/"
+        ],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "html",
+        {
+          "outputFolder": "../reports"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "../reports/report.json"
+        }
+      ],
+      [
+        "list",
+        null
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "runAgents": "none",
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.58.2",
+    "workers": 2,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "auth.setup.ts",
+      "file": "auth.setup.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "authenticate and cache storage state",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "setup",
+              "projectName": "setup",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 783,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-08-02T15:39:12.815Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "17e3fe6f4d9d8bd79c6b-38679eaf25e015b45367",
+          "file": "auth.setup.ts",
+          "line": 10,
+          "column": 6
+        }
+      ]
+    },
+    {
+      "title": "auth.spec.ts",
+      "file": "auth.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Login page — Component",
+          "file": "auth.spec.ts",
+          "line": 9,
+          "column": 6,
+          "specs": [
+            {
+              "title": "shows email field",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "auth",
+                  "projectName": "auth",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 453,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-02T15:39:14.827Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "d748ac400d08b85935ef-0936beb2f0b9fd4ec9b6",
+              "file": "auth.spec.ts",
+              "line": 17,
+              "column": 9
+            },
+            {
+              "title": "shows password field",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "auth",
+                  "projectName": "auth",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 420,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-02T15:39:15.449Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "d748ac400d08b85935ef-0dc94c0c7626c1f55cc3",
+              "file": "auth.spec.ts",
+              "line": 18,
+              "column": 9
+            },
+            {
+              "title": "shows remember field",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "auth",
+                  "projectName": "auth",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 364,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-02T15:39:15.895Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "d748ac400d08b85935ef-febc85e5f73fa1b40559",
+              "file": "auth.spec.ts",
+              "line": 19,
+              "column": 9
+            },
+            {
+              "title": "shows submit button",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "auth",
+                  "projectName": "auth",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 354,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-02T15:39:16.281Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "d748ac400d08b85935ef-1780f566d9b3299c4c3f",
+              "file": "auth.spec.ts",
+              "line": 20,
+              "column": 9
+            }
+          ]
+        },
+        {
+          "title": "Login page — Functionality",
+          "file": "auth.spec.ts",
+          "line": 23,
+          "column": 6,
+          "specs": [
+            {
+              "title": "stays on login page when form is empty",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "auth",
+                  "projectName": "auth",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 410,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-02T15:39:16.675Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "d748ac400d08b85935ef-77311027f1ecf7d0c06c",
+              "file": "auth.spec.ts",
+              "line": 31,
+              "column": 9
+            }
+          ]
+        },
+        {
+          "title": "Register page — Component",
+          "file": "auth.spec.ts",
+          "line": 37,
+          "column": 6,
+          "specs": [
+            {
+              "title": "shows name field",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "auth",
+                  "projectName": "auth",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 386,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-02T15:39:17.100Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "d748ac400d08b85935ef-4709d9a286aa875d12a0",
+              "file": "auth.spec.ts",
+              "line": 45,
+              "column": 9
+            },
+            {
+              "title": "shows email field",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "auth",
+                  "projectName": "auth",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 365,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-02T15:39:17.504Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "d748ac400d08b85935ef-c3f126fbc2b8fc817083",
+              "file": "auth.spec.ts",
+              "line": 46,
+              "column": 9
+            },
+            {
+              "title": "shows password field",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "auth",
+                  "projectName": "auth",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 389,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-02T15:39:17.889Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "d748ac400d08b85935ef-1e8e6da4212b70522991",
+              "file": "auth.spec.ts",
+              "line": 47,
+              "column": 9
+            },
+            {
+              "title": "shows password_confirmation field",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "auth",
+                  "projectName": "auth",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 376,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-02T15:39:18.305Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "d748ac400d08b85935ef-28fe7f0b5c36b245467a",
+              "file": "auth.spec.ts",
+              "line": 48,
+              "column": 9
+            },
+            {
+              "title": "shows submit button",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "auth",
+                  "projectName": "auth",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 401,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-02T15:39:18.703Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "d748ac400d08b85935ef-c3db691233deefe7cebd",
+              "file": "auth.spec.ts",
+              "line": 49,
+              "column": 9
+            }
+          ]
+        },
+        {
+          "title": "Register page — Functionality",
+          "file": "auth.spec.ts",
+          "line": 52,
+          "column": 6,
+          "specs": [
+            {
+              "title": "stays on register page when form is empty",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "auth",
+                  "projectName": "auth",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 451,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-02T15:39:19.129Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "d748ac400d08b85935ef-e2072397e7345ee255c7",
+              "file": "auth.spec.ts",
+              "line": 61,
+              "column": 9
+            }
+          ]
+        },
+        {
+          "title": "Dashboard — Component",
+          "file": "auth.spec.ts",
+          "line": 67,
+          "column": 6,
+          "specs": [
+            {
+              "title": "shows dashboard heading",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "auth",
+                  "projectName": "auth",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 912,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-02T15:39:19.616Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "d748ac400d08b85935ef-caec120ce92daf6870b7",
+              "file": "auth.spec.ts",
+              "line": 78,
+              "column": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "auth.guest.spec.ts",
+      "file": "auth.guest.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Guest Authorization",
+          "file": "auth.guest.spec.ts",
+          "line": 9,
+          "column": 6,
+          "specs": [
+            {
+              "title": "redirects to login when accessing /dashboard",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 584,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-02T15:39:14.823Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "8d37f6c9d9f2fdb3c795-756706d309ac1f0aa81d",
+              "file": "auth.guest.spec.ts",
+              "line": 10,
+              "column": 9
+            },
+            {
+              "title": "redirects to login when accessing /profile",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 477,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-02T15:39:15.526Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "8d37f6c9d9f2fdb3c795-8394edd24446de94670b",
+              "file": "auth.guest.spec.ts",
+              "line": 15,
+              "column": 9
+            },
+            {
+              "title": "redirects to login when accessing /categories",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 384,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-02T15:39:16.028Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "8d37f6c9d9f2fdb3c795-fcb2f93dc412ac3c6791",
+              "file": "auth.guest.spec.ts",
+              "line": 20,
+              "column": 9
+            },
+            {
+              "title": "redirects to login when accessing /posts",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 411,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-02T15:39:16.427Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "8d37f6c9d9f2fdb3c795-ef2a5657539a3c6c2370",
+              "file": "auth.guest.spec.ts",
+              "line": 25,
+              "column": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "categories.spec.ts",
+      "file": "categories.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Category index — Component",
+          "file": "categories.spec.ts",
+          "line": 7,
+          "column": 6,
+          "specs": [
+            {
+              "title": "shows category table",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 427,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-02T15:39:16.866Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "262c5455b60c16e7a404-cf2d8367dbb191cae422",
+              "file": "categories.spec.ts",
+              "line": 15,
+              "column": 9
+            },
+            {
+              "title": "shows create button",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 415,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-02T15:39:17.305Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "262c5455b60c16e7a404-187ca6f01818e0f2a35a",
+              "file": "categories.spec.ts",
+              "line": 19,
+              "column": 9
+            },
+            {
+              "title": "table has Name column",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 409,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-02T15:39:17.748Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "262c5455b60c16e7a404-2f94258ffc8cb158127d",
+              "file": "categories.spec.ts",
+              "line": 23,
+              "column": 7
+            },
+            {
+              "title": "table has Actions column",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 429,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-02T15:39:18.181Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "262c5455b60c16e7a404-e256441380fb88619111",
+              "file": "categories.spec.ts",
+              "line": 27,
+              "column": 7
+            }
+          ]
+        },
+        {
+          "title": "Category create — Component",
+          "file": "categories.spec.ts",
+          "line": 32,
+          "column": 6,
+          "specs": [
+            {
+              "title": "shows Name field",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 463,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-02T15:39:18.632Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "262c5455b60c16e7a404-1a51931674855683c83b",
+              "file": "categories.spec.ts",
+              "line": 40,
+              "column": 7
+            },
+            {
+              "title": "shows submit button",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 495,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-02T15:39:19.112Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "262c5455b60c16e7a404-e5b7de9af4cae3e150be",
+              "file": "categories.spec.ts",
+              "line": 44,
+              "column": 9
+            },
+            {
+              "title": "submit button is enabled",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 438,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-02T15:39:19.630Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "262c5455b60c16e7a404-3809a586fc8a7a4ee2cc",
+              "file": "categories.spec.ts",
+              "line": 48,
+              "column": 9
+            },
+            {
+              "title": "Name field is required",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 502,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-02T15:39:20.100Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "262c5455b60c16e7a404-ecc15b5ef15316caf1f4",
+              "file": "categories.spec.ts",
+              "line": 52,
+              "column": 7
+            }
+          ]
+        },
+        {
+          "title": "Category create — Functionality",
+          "file": "categories.spec.ts",
+          "line": 57,
+          "column": 6,
+          "specs": [
+            {
+              "title": "creates category with valid data",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 623,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-02T15:39:20.615Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "262c5455b60c16e7a404-dd016484151daa31d119",
+              "file": "categories.spec.ts",
+              "line": 64,
+              "column": 9
+            },
+            {
+              "title": "shows error when required fields are empty",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 453,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-02T15:39:21.258Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "262c5455b60c16e7a404-d26d1f288c372797b8e2",
+              "file": "categories.spec.ts",
+              "line": 72,
+              "column": 9
+            },
+            {
+              "title": "redirects to index after successful create",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 722,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-02T15:39:21.726Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "262c5455b60c16e7a404-c1cd4888d86b6afbc06e",
+              "file": "categories.spec.ts",
+              "line": 77,
+              "column": 9
+            }
+          ]
+        },
+        {
+          "title": "Category edit — Component",
+          "file": "categories.spec.ts",
+          "line": 84,
+          "column": 6,
+          "specs": [
+            {
+              "title": "edit page shows Name field",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 843,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-02T15:39:22.462Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "262c5455b60c16e7a404-5bf00684748dfc5c7d3e",
+              "file": "categories.spec.ts",
+              "line": 97,
+              "column": 7
+            },
+            {
+              "title": "save button is visible and enabled",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 884,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-02T15:39:23.338Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "262c5455b60c16e7a404-8c7d4e5f16a0c5a48cff",
+              "file": "categories.spec.ts",
+              "line": 101,
+              "column": 9
+            }
+          ]
+        },
+        {
+          "title": "Category edit — Functionality",
+          "file": "categories.spec.ts",
+          "line": 107,
+          "column": 6,
+          "specs": [
+            {
+              "title": "updates category successfully",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 1009,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-02T15:39:24.235Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "262c5455b60c16e7a404-11671c43c5523636b723",
+              "file": "categories.spec.ts",
+              "line": 118,
+              "column": 9
+            }
+          ]
+        },
+        {
+          "title": "Category delete — Component",
+          "file": "categories.spec.ts",
+          "line": 125,
+          "column": 6,
+          "specs": [
+            {
+              "title": "delete button is visible in row",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 677,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-02T15:39:25.256Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "262c5455b60c16e7a404-ca4a847b6f8c0703851f",
+              "file": "categories.spec.ts",
+              "line": 136,
+              "column": 9
+            }
+          ]
+        },
+        {
+          "title": "Category delete — Functionality",
+          "file": "categories.spec.ts",
+          "line": 142,
+          "column": 6,
+          "specs": [
+            {
+              "title": "deletes category after confirming dialog",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 883,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-02T15:39:25.948Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "262c5455b60c16e7a404-7e99660a41191a13a7c6",
+              "file": "categories.spec.ts",
+              "line": 153,
+              "column": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "posts.spec.ts",
+      "file": "posts.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Post index — Component",
+          "file": "posts.spec.ts",
+          "line": 7,
+          "column": 6,
+          "specs": [
+            {
+              "title": "shows post table",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 536,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-02T15:39:21.963Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b37e12cd73bb054e2a6c-a181811af406aaf76d86",
+              "file": "posts.spec.ts",
+              "line": 15,
+              "column": 9
+            },
+            {
+              "title": "shows create button",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 396,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-02T15:39:22.637Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b37e12cd73bb054e2a6c-1d0226aef194c50471e9",
+              "file": "posts.spec.ts",
+              "line": 19,
+              "column": 9
+            },
+            {
+              "title": "table has Title column",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 446,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-02T15:39:23.052Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b37e12cd73bb054e2a6c-299cd32fa43287a5b4c3",
+              "file": "posts.spec.ts",
+              "line": 23,
+              "column": 7
+            },
+            {
+              "title": "table has Category column",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 429,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-02T15:39:23.513Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b37e12cd73bb054e2a6c-8706896096181f69de44",
+              "file": "posts.spec.ts",
+              "line": 27,
+              "column": 7
+            },
+            {
+              "title": "table has Actions column",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 482,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-02T15:39:23.974Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b37e12cd73bb054e2a6c-93d8f57bf689452164b6",
+              "file": "posts.spec.ts",
+              "line": 31,
+              "column": 7
+            }
+          ]
+        },
+        {
+          "title": "Post create — Component",
+          "file": "posts.spec.ts",
+          "line": 36,
+          "column": 6,
+          "specs": [
+            {
+              "title": "shows Title field",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 426,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-02T15:39:24.470Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b37e12cd73bb054e2a6c-d0a0cbc5e29e7e2f7465",
+              "file": "posts.spec.ts",
+              "line": 44,
+              "column": 7
+            },
+            {
+              "title": "shows Text field",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 415,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-02T15:39:24.916Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b37e12cd73bb054e2a6c-d243a7ddfa1a781d41a7",
+              "file": "posts.spec.ts",
+              "line": 48,
+              "column": 7
+            },
+            {
+              "title": "shows Category id field",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 421,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-02T15:39:25.351Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b37e12cd73bb054e2a6c-6d1097736718076a28d7",
+              "file": "posts.spec.ts",
+              "line": 52,
+              "column": 7
+            },
+            {
+              "title": "shows submit button",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 427,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-02T15:39:25.795Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b37e12cd73bb054e2a6c-235bce836d0d5194b375",
+              "file": "posts.spec.ts",
+              "line": 56,
+              "column": 9
+            },
+            {
+              "title": "submit button is enabled",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 397,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-02T15:39:26.244Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b37e12cd73bb054e2a6c-a8bce70a3fae9da88b21",
+              "file": "posts.spec.ts",
+              "line": 60,
+              "column": 9
+            },
+            {
+              "title": "Title field is required",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 411,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-02T15:39:26.661Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b37e12cd73bb054e2a6c-ed6f2ee6ae1242c25059",
+              "file": "posts.spec.ts",
+              "line": 64,
+              "column": 7
+            }
+          ]
+        },
+        {
+          "title": "Post create — Functionality",
+          "file": "posts.spec.ts",
+          "line": 69,
+          "column": 6,
+          "specs": [
+            {
+              "title": "creates post with valid data",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2678,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-02T15:39:27.108Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b37e12cd73bb054e2a6c-54e2448bec8ee572258f",
+              "file": "posts.spec.ts",
+              "line": 76,
+              "column": 9
+            },
+            {
+              "title": "shows error when required fields are empty",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2401,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-02T15:39:29.798Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b37e12cd73bb054e2a6c-f3c795eacbc1e8d6adbf",
+              "file": "posts.spec.ts",
+              "line": 84,
+              "column": 9
+            },
+            {
+              "title": "redirects to index after successful create",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2514,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-02T15:39:32.223Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b37e12cd73bb054e2a6c-a89b7f1c6d5ba5b547d5",
+              "file": "posts.spec.ts",
+              "line": 89,
+              "column": 9
+            }
+          ]
+        },
+        {
+          "title": "Post edit — Component",
+          "file": "posts.spec.ts",
+          "line": 96,
+          "column": 6,
+          "specs": [
+            {
+              "title": "edit page shows Title field",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2637,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-02T15:39:34.749Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b37e12cd73bb054e2a6c-23c8ce99c37adf83c253",
+              "file": "posts.spec.ts",
+              "line": 109,
+              "column": 7
+            },
+            {
+              "title": "save button is visible and enabled",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2637,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-02T15:39:37.398Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b37e12cd73bb054e2a6c-6c4f42685ab876ac8a75",
+              "file": "posts.spec.ts",
+              "line": 113,
+              "column": 9
+            }
+          ]
+        },
+        {
+          "title": "Post edit — Functionality",
+          "file": "posts.spec.ts",
+          "line": 119,
+          "column": 6,
+          "specs": [
+            {
+              "title": "updates post successfully",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4821,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-02T15:39:40.048Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b37e12cd73bb054e2a6c-23242a1ad061115b38de",
+              "file": "posts.spec.ts",
+              "line": 130,
+              "column": 9
+            }
+          ]
+        },
+        {
+          "title": "Post delete — Component",
+          "file": "posts.spec.ts",
+          "line": 137,
+          "column": 6,
+          "specs": [
+            {
+              "title": "delete button is visible in row",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2526,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-02T15:39:44.881Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b37e12cd73bb054e2a6c-408bc30abef93fae88da",
+              "file": "posts.spec.ts",
+              "line": 148,
+              "column": 9
+            }
+          ]
+        },
+        {
+          "title": "Post delete — Functionality",
+          "file": "posts.spec.ts",
+          "line": 154,
+          "column": 6,
+          "specs": [
+            {
+              "title": "deletes post after confirming dialog",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2687,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-02T15:39:47.417Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b37e12cd73bb054e2a6c-94251b81d1f350314b6c",
+              "file": "posts.spec.ts",
+              "line": 165,
+              "column": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "profile.spec.ts",
+      "file": "profile.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Profile page — Component",
+          "file": "profile.spec.ts",
+          "line": 7,
+          "column": 6,
+          "specs": [
+            {
+              "title": "shows name field",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 458,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-02T15:39:26.854Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "e8b79b4ee550a37632f1-b16e0413ae20026a220b",
+              "file": "profile.spec.ts",
+              "line": 15,
+              "column": 9
+            },
+            {
+              "title": "shows email field",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 380,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-02T15:39:27.325Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "e8b79b4ee550a37632f1-f7cfd3388ccc0fbf0f89",
+              "file": "profile.spec.ts",
+              "line": 16,
+              "column": 9
+            },
+            {
+              "title": "shows save profile button",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 335,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-02T15:39:27.717Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "e8b79b4ee550a37632f1-963e42a416210c8fa321",
+              "file": "profile.spec.ts",
+              "line": 17,
+              "column": 9
+            }
+          ]
+        },
+        {
+          "title": "Profile page — Functionality",
+          "file": "profile.spec.ts",
+          "line": 20,
+          "column": 6,
+          "specs": [
+            {
+              "title": "save button is enabled",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 324,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-02T15:39:28.065Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "e8b79b4ee550a37632f1-9ea5ff1abccf4753b528",
+              "file": "profile.spec.ts",
+              "line": 28,
+              "column": 9
+            },
+            {
+              "title": "updates profile successfully",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 537,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-02T15:39:28.400Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "e8b79b4ee550a37632f1-b555d5a121e7e855b868",
+              "file": "profile.spec.ts",
+              "line": 32,
+              "column": 9
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-08-02T15:39:11.528Z",
+    "duration": 38649.281,
+    "expected": 57,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}
