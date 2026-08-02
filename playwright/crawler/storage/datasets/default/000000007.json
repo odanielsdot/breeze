@@ -1,0 +1,177 @@
+{
+	"title": "Laravel",
+	"url": "http://127.0.0.1:8000/posts",
+	"pathname": "/posts",
+	"effectivePathname": "/posts",
+	"phase": "auth",
+	"forms": [
+		{
+			"action": "/posts",
+			"method": "GET",
+			"inputs": [
+				{
+					"name": null,
+					"label": "select",
+					"type": "select",
+					"tag": "select",
+					"placeholder": null,
+					"required": false,
+					"options": [
+						{
+							"value": "auto",
+							"text": "Auto (System preference)"
+						},
+						{
+							"value": "light",
+							"text": "Light"
+						},
+						{
+							"value": "dark",
+							"text": "Dark"
+						}
+					]
+				},
+				{
+					"name": null,
+					"label": "select",
+					"type": "select",
+					"tag": "select",
+					"placeholder": null,
+					"required": false,
+					"options": [
+						{
+							"value": "bottomLeft",
+							"text": "Bottom Left"
+						},
+						{
+							"value": "bottomRight",
+							"text": "Bottom Right"
+						},
+						{
+							"value": "topLeft",
+							"text": "Top Left"
+						},
+						{
+							"value": "topRight",
+							"text": "Top Right"
+						}
+					]
+				},
+				{
+					"name": null,
+					"label": "Hide empty tabs until they have data",
+					"type": "checkbox",
+					"tag": "input",
+					"placeholder": null,
+					"required": false
+				},
+				{
+					"name": null,
+					"label": "Automatically show new incoming Ajax requests",
+					"type": "checkbox",
+					"tag": "input",
+					"placeholder": null,
+					"required": false
+				}
+			]
+		},
+		{
+			"action": "/posts",
+			"method": "GET",
+			"inputs": [
+				{
+					"name": "method",
+					"label": "method",
+					"type": "select",
+					"tag": "select",
+					"placeholder": null,
+					"required": false,
+					"options": []
+				},
+				{
+					"name": "uri",
+					"label": "URI",
+					"type": "text",
+					"tag": "input",
+					"placeholder": "URI",
+					"required": false
+				},
+				{
+					"name": "ip",
+					"label": "IP",
+					"type": "text",
+					"tag": "input",
+					"placeholder": "IP",
+					"required": false
+				}
+			]
+		}
+	],
+	"components": {
+		"tables": [
+			{
+				"columns": [
+					"Title",
+					"Category",
+					"Actions"
+				],
+				"hasActions": false
+			},
+			{
+				"columns": [],
+				"hasActions": false
+			},
+			{
+				"columns": [],
+				"hasActions": false
+			},
+			{
+				"columns": [],
+				"hasActions": false
+			},
+			{
+				"columns": [],
+				"hasActions": false
+			},
+			{
+				"columns": [],
+				"hasActions": false
+			},
+			{
+				"columns": [],
+				"hasActions": false
+			},
+			{
+				"columns": [
+					"Date ↕",
+					"Method",
+					"URL",
+					"Data"
+				],
+				"hasActions": false
+			},
+			{
+				"columns": [
+					"Date",
+					"Method",
+					"URL",
+					"IP",
+					"Filter data"
+				],
+				"hasActions": false
+			}
+		],
+		"actions": [
+			{
+				"text": "Add new post",
+				"tag": "a",
+				"href": "/posts/create"
+			},
+			{
+				"text": "Delete all",
+				"tag": "a",
+				"href": null
+			}
+		]
+	}
+}
